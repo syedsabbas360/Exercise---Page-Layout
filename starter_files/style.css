@@ -1,0 +1,138 @@
+/*
+
+    COLORS
+
+    Pink   : #ffdddd
+    Purple : #ddddff
+    Green  : #ddffdd
+    Blue   : #ddffff
+    Yellow : #ffffdd
+
+    BREAKPOINTS
+
+    600px
+    1100px
+
+*/
+
+body{
+    font-family: Palatino, Times, serif;
+    background-color: #ddffdd;
+    margin: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+ul{
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+h1, h2, h3{
+    color: #009999;
+}
+
+h2, h3{
+    margin-bottom: 0;
+}
+
+a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+header{
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddddff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+  background: #FCD792;
+  display:flex;
+  justify-content: space-around;
+}
+
+nav a{
+  margin: 1em;
+}
+
+#site_container{
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+}
+
+#main_nav{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding-left: 25em;
+}
+
+#main_nav a{
+    display: block;
+    padding: 10px 2%;
+    background: #ffdddd;
+    margin: 5px 3px;
+    border-radius: 5px;
+    width: 20em;
+}
+
+#main_nav a:hover{
+    background: #ddddff;
+}
+
+#main_content{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom:
+}
+
+ #main_content div{
+  background: #ddffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 100%;
+  padding: 0em 1em;
+  margin-bottom: 1em;
+}
+
+#sidebar_content{
+  background: #ffffdd;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 1em;
+  padding-right: 10em;
+}
+#sidebar_content div{
+  padding-left: 1em;
+}
+
+@media screen and (min-width=1100px){
+
+
+
+
+
+}
